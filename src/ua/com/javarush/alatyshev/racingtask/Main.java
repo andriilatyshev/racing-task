@@ -62,8 +62,8 @@ public class Main {
                 try {
                     System.out.println(filePath);
 
-                    for (String s : Files.readAllLines(filePath)) {
-                        String[] lineParts = s.split(";");
+                    for (String line : Files.readAllLines(filePath)) {
+                        String[] lineParts = line.split(";");
 
                         String racerName = lineParts[0];
                         int roundNumber = Integer.parseInt(lineParts[1]);
