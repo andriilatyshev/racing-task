@@ -48,6 +48,7 @@ public class Main {
             System.err.println("Something went wrong with reading dir! Reason: " + e.getMessage());
             System.exit(5);
         }
+        //test!
 
         try {
             for (Path filePath : Files.newDirectoryStream(dirPath)) {
