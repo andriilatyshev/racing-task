@@ -49,6 +49,7 @@ public class Main {
             System.exit(5);
         }
         //test!
+        //test 2
 
         try {
             for (Path filePath : Files.newDirectoryStream(dirPath)) {
